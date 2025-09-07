@@ -16,6 +16,8 @@ DevTools give you full control over the pages you're working on, from modifying 
 
 By completing these tasks, you will gain essential web development skills to make your websites better, faster, and safer. 🎉
 
+The practice site for this project is: [**https://dev-tools.alx-tools.com/**](https://dev-tools.alx-tools.com/)
+
 ---
 
 ## 🛠️ **Tasks**
@@ -313,5 +315,6 @@ When does the **SSL certificate** expire?
 
 By completing this project, you’ll become well-versed in **Chrome Developer Tools**—a must-have skill for every web developer. Whether it's fixing bugs, enhancing performance, or improving security, DevTools will elevate your web development game.
 
-Good luck, and happy debugging! 🌟
+The practice site for this project can be accessed here: [**https://dev-tools.alx-tools.com/**](https://dev-tools.alx-tools.com/)
 
+Good luck, and happy debugging! 🌟
