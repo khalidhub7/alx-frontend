@@ -92,7 +92,7 @@ h6 {
   color: var(--section-title-color);
 }
 
-a:not(:visited) {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
