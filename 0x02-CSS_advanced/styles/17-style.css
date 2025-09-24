@@ -62,19 +62,6 @@ html {
   color: var(--color-primary);
 }
 
-.section-tagline {
-  font-family: var(--font-family-title);
-  text-transform: var(
-    --section-tagline-transform
-  );
-  font-weight: var(--font-weight-bold);
-}
-
-.section-header {
-  text-align: var(--section-header-align);
-  padding: var(--section-header-padding);
-}
-
 body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
@@ -93,29 +80,6 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
-}
-
-a:link {
-  color: var(--text-color);
-  text-decoration: none;
-}
-a:visited {
-  font-style: italic;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-a:active {
-  background-color: var(--color-light-grey);
-}
-
 .container {
   width: 960px;
   margin-right: auto;
@@ -126,6 +90,27 @@ a:active {
   padding: var(--section-padding);
 }
 
+.section-header {
+  text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
+}
+
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
+
+.section-tagline {
+  font-family: var(--font-family-title);
+  text-transform: var(
+    --section-tagline-transform
+  );
+  font-weight: var(--font-weight-bold);
+}
+
 .section-body {
   padding: var(--section-body-padding);
 }
@@ -133,6 +118,20 @@ a:active {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
+}
+
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+a:visited {
+  font-style: italic;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  background-color: var(--color-light-grey);
 }
 
 footer {
