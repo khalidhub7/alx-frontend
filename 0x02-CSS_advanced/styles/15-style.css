@@ -1,5 +1,7 @@
 @import "./normalize.css";
 
+*::before,
+*::after,
 * {
   box-sizing: border-box;
 }
@@ -12,9 +14,11 @@
   --text-color: var(--color-black);
 
   --font-family-base:
-    "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    "Open Sans", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
   --font-family-title:
-    "Raleway", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    "Raleway", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -53,7 +57,9 @@ html {
 
 .section-tagline {
   font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
+  text-transform: var(
+    --section-tagline-transform
+  );
   font-weight: var(--font-weight-bold);
 }
 
