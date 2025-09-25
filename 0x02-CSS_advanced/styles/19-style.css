@@ -183,7 +183,7 @@ a:active {
 ul.row {
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  list-style: none;
 }
 
 .col-1-3 {
