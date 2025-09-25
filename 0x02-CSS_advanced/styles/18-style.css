@@ -150,7 +150,7 @@ a:active {
 
 .navbar-menu {
   background-color: yellow;
-  left: right;
+  float: right;
 }
 
 .nav {
