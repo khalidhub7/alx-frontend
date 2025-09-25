@@ -180,7 +180,7 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
-ul.row {
+ul .row {
   padding: 0;
   margin: 0;
   list-style-type: none;
