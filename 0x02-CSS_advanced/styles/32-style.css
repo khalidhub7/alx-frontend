@@ -14,11 +14,11 @@
   --text-color: var(--color-black);
 
   --font-family-base:
-    "Open Sans", "Helvetica Neue", "Helvetica",
-    "Arial", "sans-serif";
+    "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
   --font-family-title:
-    "Raleway", "Helvetica Neue", "Helvetica",
-    "Arial", "sans-serif";
+    "Raleway", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
 
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -47,9 +47,7 @@
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
 
-  --nav-item-font-family: var(
-    --font-family-title
-  );
+  --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
@@ -61,8 +59,7 @@
 
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
-  --button-border: 0.2rem solid
-    var(--color-primary);
+  --button-border: 0.2rem solid var(--color-primary);
   --button-color: var(--color-black);
   --button-text-decoration: none;
   --button-font-size: var(--font-size-large);
@@ -143,9 +140,7 @@ h6 {
 
 .section-tagline {
   font-family: var(--font-family-title);
-  text-transform: var(
-    --section-tagline-transform
-  );
+  text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
   margin: var(--section-tagline-margin);
 }
@@ -184,12 +179,8 @@ a:active {
 
 .button:hover {
   color: var(--button-hover-color);
-  text-decoration: var(
-    --button-hover-text-decoration
-  );
-  background-color: var(
-    --button-hover-background
-  );
+  text-decoration: var(--button-hover-text-decoration);
+  background-color: var(--button-hover-background);
   transition-duration: var(--transition-duration);
   transition-property: background-color, color;
 }
@@ -413,11 +404,11 @@ ul.row {
 
 .card-testimonial .card-quote::before {
   content: "\201C";
+  color: #efeded;
+  font-size: 10rem;
   position: absolute;
   top: -4.5rem;
   left: -1rem;
-  color: #efeded;
-  font-size: 10rem;
   z-index: -1;
 }
 
