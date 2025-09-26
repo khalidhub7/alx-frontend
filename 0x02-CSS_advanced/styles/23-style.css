@@ -221,7 +221,7 @@ ul.row {
   background-color: var(--color-black);
 } */
 
-header[data-section-theme="“dark”"],
+header[data-section-theme="dark"],
 section[data-section-theme] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
