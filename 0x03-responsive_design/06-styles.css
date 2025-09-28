@@ -58,9 +58,9 @@
     display: none;
 } */
 
-/* Section HERO */
+/* section hero – commented, will add later in 10-styles.css */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .section-hero {
     margin: -0.1rem 0;
   }
@@ -70,4 +70,4 @@
   .section-hero .section-body {
     padding: 2rem;
   }
-}
+} */
