@@ -1,5 +1,6 @@
 @import "./01-styles.css";
 
 .container {
+  width: 100%;
   max-width: 960px;
 }
